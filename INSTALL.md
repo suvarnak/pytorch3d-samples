@@ -39,7 +39,9 @@ conda install -c bottler nvidiacub
 ```
 
 4. Follwing step throws several CondaVerificationErrors for packages in my setup:
-`conda install jupyter # EROORS!`
+```
+conda install jupyter # EROORS!
+```
 
 So I installed jupyter with pip3
 
