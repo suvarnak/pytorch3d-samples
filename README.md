@@ -6,7 +6,7 @@ You may use any obj file as target or download (see download.sh) a sample dolphi
 
 ```
 conda activate pytorch3d
-python sphere_to_object.py -target input/dolphin.obj
+python sphere_to_object.py -target input/target.obj
 ```
 
 sphere_to_object.py is extended from PyTorch3D official tutorial to perform following -
@@ -17,3 +17,6 @@ The function learns to incrementally deform a source mesh (sphere) to be more si
 chamfer distance to guide the learning.
 
 Intermediate generation results are stored as a 2D image and finally a GIF of the generated point clouds is created to visualize the incremental transformation from a sphere point cloud to a desired object.
+
+
+ ![ Sphere pcd to dolphin](generated.gif) 
